@@ -1,0 +1,17 @@
+﻿table;grain;colonne;type;unite_ou_sens;manquants
+population;pays-année;pays_id;int64;Identifiant fictif;0
+population;pays-année;annee;int64;année civile;0
+population;pays-année;population;int64;personnes;0
+produits;produit;produit_id;int64;Identifiant fictif;0
+produits;produit;categorie;str;catégorie produit;0
+produits;produit;kcal_kg;float64;kcal/kg;0
+bilans;pays-année-produit;pays_id;int64;Identifiant fictif;0
+bilans;pays-année-produit;annee;int64;année civile;0
+bilans;pays-année-produit;produit_id;int64;Identifiant fictif;0
+bilans;pays-année-produit;production_t;float64;tonnes/an;0
+bilans;pays-année-produit;importations_t;float64;tonnes/an;383
+bilans;pays-année-produit;exportations_t;float64;tonnes/an;0
+bilans;pays-année-produit;variation_stock_t;float64;tonnes/an;0
+bilans;pays-année-produit;pertes_t;float64;tonnes/an;0
+bilans;pays-année-produit;alimentation_animale_t;float64;tonnes/an;0
+bilans;pays-année-produit;autres_usages_t;float64;tonnes/an;0
